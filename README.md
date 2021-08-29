@@ -7,7 +7,7 @@
 <h2> Descrição: </h2>
 
 <p>
-    Script para automatizar a criação do Shell Reverse, utilizando o netcat(Ferramenta para interação com portas e serviços do TCP/IP...
+    Script para automatizar a criação do Shell Reverse, utilizando o netcat(Ferramenta para interação com portas e serviços do TCP/IP)
 </p>
 
 <h2> Instalação: </h2>
