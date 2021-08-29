@@ -1,0 +1,25 @@
+#!/bin/env bash
+
+clear
+echo
+echo
+echo "INSTALANDO PACOTES..."
+echo
+pkg update -y &> /dev/null
+pkg upgrade -y &> /dev/null
+pkg install grep -y &> /dev/null
+pkg install jq -y &> /dev/null
+pkg install dnsutils -y &> /dev/null
+pkg install host -y &> /dev/null
+pkg install netcat-openbsd -y &> /dev/null
+pkg install curl -y &> /dev/null
+git clone https://github.com/PSecurity/ps.ngrok &> /dev/null
+cd ps.ngrok && chmod +x *
+mv ngrok .. && cd ..
+rm -rf ps.ngrok
+clear
+echo
+echo
+echo "Lembrando Você precisa por o AuthToken do Ngrok"
+echo
+echo
